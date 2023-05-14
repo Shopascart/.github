@@ -1,3 +1,3 @@
-## Hello there, welcome to Shopascart 👋
+## Welcome to Shopascart 👋
 
 https://www.shopascart.com/careers

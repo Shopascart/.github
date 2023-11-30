@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 🔒 Security
+    url: mailto://secure@shopascart.com
+    about: For issues relating to security.

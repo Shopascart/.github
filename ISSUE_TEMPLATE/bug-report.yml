@@ -3,43 +3,43 @@ description: Create a report about something that is not working
 title: "[Bug]: "
 labels: ["bug", "triage"]
 body:
-- type: markdown
-  attributes:
-    value: |
-
-      Please keep in mind that the GitHub issue tracker is not intended as a general support forum, but for reporting **non-security** bugs and feature requests.
-
-      If you believe you have an issue that affects the SECURITY of the platform, please do NOT create an issue and instead email your issue details to secure@shopascart.com.
-      For other types of questions, consider using [StackOverflow](https://stackoverflow.com).
-- type: checkboxes
-  attributes:
-    label: Is there an existing issue for this?
-    description: Please search to see if an issue already exists for the bug you encountered.
-    options:
-    - label: I have searched the existing issues
+  - type: markdown
+    attributes:
+      value: |
+  
+        Please keep in mind that the GitHub issue tracker is not intended as a general support forum, but for reporting **non-security** bugs and feature requests.
+  
+        If you believe you have an issue that affects the SECURITY of the platform, please do NOT create an issue and instead email your issue details to secure@shopascart.com.
+        For other types of questions, consider using [StackOverflow](https://stackoverflow.com).
+  - type: checkboxes
+    attributes:
+      label: Is there an existing issue for this?
+      description: Please search to see if an issue already exists for the bug you encountered.
+      options:
+      - label: I have searched the existing issues
+        required: true
+  - type: textarea
+    attributes:
+      label: Describe the bug
+      description: A clear and concise description of what the bug is.
+    validations:
       required: true
-- type: textarea
-  attributes:
-    label: Describe the bug
-    description: A clear and concise description of what the bug is.
-  validations:
-    required: true
-- type: textarea
-  attributes:
-    label: Expected Behavior
-    description: A clear and concise description of what you expected to happen.
-  validations:
-    required: false
-- type: textarea
-  attributes:
-    label: Steps To Reproduce
-    description: Steps to reproduce the behavior.
-  validations:
-    required: false
-- type: textarea
-  attributes:
-    label: Exceptions (if any)
-    description: Include the exception you get when facing this issue.
-    placeholder: 
-  validations:
-    required: false
+  - type: textarea
+    attributes:
+      label: Expected Behavior
+      description: A clear and concise description of what you expected to happen.
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: Steps To Reproduce
+      description: Steps to reproduce the behavior.
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: Exceptions (if any)
+      description: Include the exception you get when facing this issue.
+      placeholder: 
+    validations:
+      required: false
